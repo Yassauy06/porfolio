@@ -1,0 +1,354 @@
+*{
+  margin: 0;
+}
+.App {
+  text-align: center;
+  background: url('/src/img/cyber.jpeg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.welcomePage{
+  height: 709px;
+  padding-top: 350px;
+
+}
+
+.link-main{
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+  margin-top: 200px;
+}
+.link-main:hover{
+  -moz-text-shadow:0 0 10px rgb(252, 252, 252); 
+  -webkit-text-shadow:0 0 10px rgb(252, 252, 252); 
+  text-shadow:0 0 10px rgb(252, 252, 252);
+  transition: 1s;
+}
+.ant-menu{
+  background-color: #2F4F4F;
+}
+.AboutMe{
+  padding: 20px 40px ;
+  text-align: left;
+  background-color: white;
+}
+.about-lorem{
+  font-size: 16px;
+  padding-left: 20px;
+}
+.title-page{
+  color: #2F4F4F;
+  padding-bottom: 10px;
+  text-align: left;
+  font-size: 28px;
+}
+
+
+
+.experience{
+  padding: 40px;
+  background-color: white;
+}
+.experience_job{
+  display: flex;
+  margin: 20px 0;
+  
+}
+.job_1{
+  width: 80px;
+}
+.job_2{
+  margin-left: 80px;
+}
+h3,p{
+  text-align: left;
+}
+
+
+
+
+.skills-container {
+  background-color: white;
+  margin: 40px 33px ;
+  padding: 20px 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.skill-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+  
+}
+
+.skill-input input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: 40px;
+}
+
+.skill-input button {
+  padding: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.skill-input button:hover {
+  background-color: #45a049;
+}
+
+.skill-list {
+  margin-top: 20px;
+}
+
+.skill {
+  margin-bottom: 10px;
+}
+.skill-name{
+  font-size: 30px;
+}
+.skill-bar {
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  height: 30px;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.skill-level {
+  height: 30px;
+  background-color: #4CAF50;
+}
+
+
+
+
+.Education{
+  padding: 40px ;
+  background-color: white;
+}
+.t-card{
+  margin: 20px 30px;
+
+}
+h4{
+  text-align: left;
+  padding: 10px 0;
+  font-size: 20px;
+}
+p{
+  text-align: left;
+  padding: 10px 0;
+
+}
+
+
+
+
+
+
+.address-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 40px;
+  width: 100%;
+}
+
+.address-container h2 {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+  font-size: 24px;
+}
+
+.contact-list span {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.contact-list a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+.navbar {
+  /* display: none; */
+  background-color: #333;
+  padding: 10px;
+  height:100%;
+  width: 32.5vh;
+  position: fixed;
+  inset-inline-start: 0;
+  top: 0;
+  bottom: 0;
+  scrollbar-color:unset ;
+}
+.navbar-text{
+  padding-left: 20px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  text-align: left;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.navbar li a:hover {
+  color: #2F4F4F;
+}
+
+.global-div{
+  background-color: white;
+}
+
+.userName{
+  color: white;
+  font-size: 20px;
+
+}
+.content{
+  margin-left: 300px;
+
+
+
+}
+
+@media screen and (max-width:320px) {
+  .navbar{
+    width: 70px;
+  }
+  .userInfo{
+    display: none;
+  }
+  .navbar-text{
+    display: none;
+  }
+  .content{
+    margin-left: 50px;
+  
+  }
+  .skills-container{
+    text-align: center;
+    width: 100%;
+    padding: 20px 20px 20px 0;
+  }
+  .contact-list li {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 15px;
+  }
+  .experience{
+    margin:0 0  40px 30px;
+    padding: 0;
+  }
+.address-container{
+  margin-left: 20px;
+}
+
+  .title-page{
+    text-align: center;
+  }
+}
+.link-text{
+  display: flex;
+}
+.list-client{
+  text-align: left;
+  text-decoration: none;
+  font-size: 20px;
+  list-style-type: none;
+  margin-top: 20px;
+
+}
+.client-content{
+  margin: 40px 0;
+  padding: 20px;
+  background-color: white;
+  width: 100%;
+  
+}
+.userInfo{
+  margin-top: 40px;
+}
+
+.xl{
+  max-width: 1024px;
+
+}
+.xs{
+  max-width: 330px;
+}
